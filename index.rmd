@@ -5,14 +5,14 @@
 
 <img src="images/me.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-UNDER CONSTRUCTIO - this is just a test
+UNDER CONSTRUCTION - this is just a test
 
-I love to work with data to create analysis that creates value for my customers.
+I love to work with data to create analysis that has value for my customers.
 
-Currently I work with large data sets at [Partenamut](https://www.partenamut.be) in the BI and analytics team. I administer our Tableau server, am in charge of dashboarding for different departments, text mine customer feedback, and try to the best of my abilities to predict the health expenses incured by our customers, amongst other things.
+Currently I work with large data sets at [Partenamut](https://www.partenamut.be),  the biggest health insurance fund in Belgium. In the BI and analytics team, I administer our Tableau server, am in charge of dashboarding for different departments, text mine customer feedback, and try to the best of my abilities to predict the health expenses incured by our customers, amongst other things.
 
 I graduated from the [University of Minnesota](http://www.sph.umn.edu/academics/divisions/biostatistics/) with a MS in biostatistics in 2010. In 2012 I began working toward my DrPH in biostatistics as a part-time student at [Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics), where I am investigating statistical methods for the study of etiologic heterogeneity in epidemiologic studies under the advisement of [Dr. Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) at Columbia University and [Dr. Colin Begg](https://www.mskcc.org/profile/colin-begg) at Memorial Sloan Kettering Cancer Center. I expect to graduate by the end of 2018.
 
-I am an unknown R enthusiast and bad to the code. Father of two. In a civil partnership with one. Father of two.
+I am an unknown R enthusiast and bad to the [code](https://www.youtube.com/watch?v=TSK2jDkQLDg). Father of two. In a civil partnership with one. 
 
 My full CV is available [here](files/Zabor_CV_2017_Q4.pdf).
