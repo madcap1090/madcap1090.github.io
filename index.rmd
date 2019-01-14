@@ -9,6 +9,7 @@ require(ggplot2)
 #Create myheader.html
 fileConn <- file("myheader.html")
 writeLines('<meta http-equiv="X-UA-Compatible" content="IE=edge" />', fileConn)
+writeLines('<link rel="shortcut icon" href="images/favicon.ico" />', fileConn)
 close(fileConn)
 ```
 
