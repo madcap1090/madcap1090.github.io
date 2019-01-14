@@ -3,7 +3,7 @@ title: "mytitle"
 output:
   html_document:
     includes:
-       in_header: myheader.html
+       in_header: "myheader.html"
 ---
 
 ```{r setup, include=FALSE}
@@ -20,8 +20,6 @@ output:
 
 
 
-
-<link rel="shortcut icon" href="images/favicon.ico">
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 
