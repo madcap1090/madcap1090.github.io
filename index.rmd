@@ -1,8 +1,23 @@
 ---
 ---
 
-<link rel="stylesheet" href="styles.css" type="text/css">
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE )
+#libraries
+require(ggplot2)
+
+#Create myheader.html
+fileConn <- file("myheader.html")
+writeLines('<meta http-equiv="X-UA-Compatible" content="IE=edge" />', fileConn)
+close(fileConn)
+```
+
+
+
+
 <link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="styles.css" type="text/css">
+
 
 <img src="images/me.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
