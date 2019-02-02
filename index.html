@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>index.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,9 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="shortcut icon" href="images/favicon.ico" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -101,6 +100,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -115,7 +117,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -135,6 +136,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -156,18 +194,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -242,7 +339,7 @@ $(document).ready(function () {
 <p>I love to work with data to create analysis that has value for my customers.</p>
 <p>Currently I work with large data sets at <a href="https://www.partenamut.be">Partenamut</a>, the biggest health insurance fund in Belgium. In the BI and analytics team, I administer our Tableau server, am in charge of dashboarding for different departments, text mine customer feedback, and try to the best of my abilities to predict the health expenses incured by our customers, amongst other things.</p>
 <p>I graduated from the <a href="https://www.ugent.be/eb/en">University of Ghent</a> with a MS in business economics in 1988.</p>
-<p>In my spare time I enjoy the company of my friends and family, play badminton, and enjoy going to smaller concerts in Brussels. I am still a member of MSF and volonteer for Duo for a Job. I also continue learning machine learning. Currently I analyse Belgian politician tweets. Here is the temporary result of an anlysis of terms in tweets most helpful to determin party <a href="http://rpubs.com/madcap/reps_54">membership</a>, and domains <a href="http://rpubs.com/madcap/456029">shared</a> to determin party affiliation. I plan to publish other interesting stuff from these sources soon.</p>
+<p>In my spare time I enjoy the company of my friends and family, play badminton, and like going to smaller concerts in Brussels. I am still a member of <a href="https://www.msf-azg.be/fr/">MSF</a> and volonteer for <a href="https://www.duoforajob.be/en/home/">Duo for a Job</a>. I also continue exploring machine learning. Currently I analyse Belgian politician tweets. Here is the temporary result of an anlysis of terms in tweets most helpful to determine party <a href="http://rpubs.com/madcap/reps-54">membership</a>, domains <a href="http://rpubs.com/madcap/456029">shared</a> to determine party affiliation, and a representation of bi-grams found in federal parlementairians dutch <a href="https://madcap1090.github.io/docs/rep_nets.html">tweets</a>. I plan to publish other stuff from these sources soon.</p>
 <p>I am an unknown R enthusiast and bad to the code. Father of two. In a civil partnership with one.</p>
 <p>My full CV is available <a href="files/Zabor_CV_2017_Q4.pdf">here</a>.</p>
 
