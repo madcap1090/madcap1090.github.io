@@ -6,20 +6,7 @@ output:
        in_header: "myheader.html"
 ---
 
-```{r setup, include=FALSE}
-# knitr::opts_chunk$set(echo = FALSE )
-# #libraries
-# require(ggplot2)
-# 
-# #Create myheader.html
-# fileConn <- file("myheader.html")
-# writeLines('<meta http-equiv="X-UA-Compatible" content="IE=edge" />', fileConn)
-# writeLines('<link rel="shortcut icon" href="images/favicon.ico" />', fileConn)
-# close(fileConn)
-# https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html
-# https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
 
-```
 
 
 
