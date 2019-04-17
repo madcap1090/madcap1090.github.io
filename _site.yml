@@ -4,7 +4,7 @@ navbar:
   title: "bad_to_the_code"
   left:
     - text: "Blogging"
-      href: https://badtothecode.netlify.com/post/am-i-getting-slower-going-to-work/
+      href: https://badtothecode.netlify.com/
 #    - text: "Speaking"
 #      href: talks.html
 #    - text: "Programming"

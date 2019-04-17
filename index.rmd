@@ -28,7 +28,6 @@ output:
 
 <img src="images/me.jpg" style="width:25%; border:10px solid; margin-right: 15px" align="left">
 
-UNDER CONSTRUCTION - this is just a test
 
 I love to work with data to create analysis that has value for my customers.
 
