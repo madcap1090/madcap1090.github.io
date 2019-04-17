@@ -3,17 +3,17 @@ output_dir: "."
 navbar:
   title: "bad_to_the_code"
   left:
-    - text: "Writing"
-      href: research.html
-    - text: "Speaking"
-      href: talks.html
-    - text: "Programming"
-      href: software.html
-    - text: "Teaching"
-      href: teaching.html
+    - text: "Blogging"
+      href: https://badtothecode.netlify.com/post/am-i-getting-slower-going-to-work/
+#    - text: "Speaking"
+#      href: talks.html
+#    - text: "Programming"
+#      href: software.html
+#    - text: "Teaching"
+#      href: teaching.html
   right:
     - icon: fa-envelope fa-lg
-      href: contact.html
+      href: mailto:madcap1090@gmail.com
     - icon: fa-github fa-lg
       href: https://github.com/madcap1090
     - icon: fa-twitter fa-lg
